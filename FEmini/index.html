@@ -1,0 +1,18 @@
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>글 쓰기</title>
+</head>
+<body>
+    <div id="modal">
+        <form id="item">
+            <input id="title" name="title" placeholder="제목" />
+            <textarea id="content" name="content" placeholder="내용"></textarea>
+            <input id="category" name="category" placeholder="카테고리id">
+            <input type="file" name="image">
+        </form>
+        <button onclick="closeModal()">작성</button>
+    </div>
+    <button onclick="showModal()">글쓰기</button>
+</body>
+<script src="index.js"></script>
+</html>
